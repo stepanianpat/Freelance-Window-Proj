@@ -1,0 +1,115 @@
+p#services_main {
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.serv_head {
+	width: 100%;
+	height: 100%;
+}
+
+.serv_head h1 {
+    position: relative;
+    top: 259px;
+    color: white;
+    font-size: 74px;
+    text-align: center;
+}
+
+.serv_head img{
+	width: 100%;
+	height: 360px;
+	border-bottom: 2px solid black;
+}
+
+.parallax_holder {
+	margin-top: -90px;
+	  /* The image used */
+    background-image: url("../img/work.jpeg");
+
+    /* Set a specific height */
+    height: 350px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#serv_container {
+	max-height: 100%;
+	width: 100%;
+	margin-bottom: 200px; 
+	text-align: center;
+}
+
+.serv1, .serv2 {
+	height: 450px;
+    width: 770px;
+    border: 3px solid black;
+    margin: 20px 20px 100px 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.serv1 h2,  .serv2 h2 {
+	position: relative;
+    top: 200px;
+    font-size: 50px;
+}
+
+.serv1 a,  .serv2 a {
+    text-decoration: underline;
+    color: white;
+}
+
+
+
+
+
+.serv1 {
+	background-image: url(../img/house3.jpg) ;
+}
+
+.serv2 {
+	background-image: url(../img/door.png);
+}
+
+.serv1 p , .serv2 p {
+	position: relative;
+    left: 830px;
+    font-size: 20px;
+    margin-bottom: -57px;
+    text-align: left;
+}
+
+.servButton {
+    position: relative;
+    left: 700px;
+    top: 70px;
+	padding: .3em 1em;
+    border: 2px solid black;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+ 
